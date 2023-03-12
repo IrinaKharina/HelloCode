@@ -8,6 +8,7 @@ if (username.ToLower() == "маша") //перевод символов в ни�
 else
 {
     //Console.Write("Привет, ", username);
-    Console.Write("Привет, ");
-    Console.WriteLine(username);
+    Console.Write($"Привет, {username}");
+    //Console.Write("Привет, ");
+    //Console.WriteLine(username);
 }
